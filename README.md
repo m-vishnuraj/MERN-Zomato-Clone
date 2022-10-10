@@ -13,3 +13,6 @@
 ### run server
 - npm start
 - npm run dev
+### create database connection
+- server => database => connection.js
+- server => .env configured with key
