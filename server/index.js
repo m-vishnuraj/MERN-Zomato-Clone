@@ -14,5 +14,5 @@ zomato.get("/", (req, res) => {
 const PORT = 4000;
 
 zomato.listen(PORT, () => {
-  console.log("Server is running on port ${PORT}");
+  console.log(`Server is running on port ${PORT}`);
 });
