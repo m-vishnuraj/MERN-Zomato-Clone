@@ -24,3 +24,5 @@
 - image (storing all the images related to the project)
 - review (storing all the list of reviews)
 - user (user related details, username, email, password)
+### craete models
+- server => database => allModels
