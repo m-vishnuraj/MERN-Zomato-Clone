@@ -16,3 +16,11 @@
 ### create database connection
 - server => database => connection.js
 - server => .env configured with key
+### create schema (API Planning)
+- food (food items and their details)
+- restaurant (restaurant and their details)
+- menu (menu and it's details)
+- order (order and it's details)
+- image (storing all the images related to the project)
+- review (storing all the list of reviews)
+- user (user related details, username, email, password)
