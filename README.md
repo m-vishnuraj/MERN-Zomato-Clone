@@ -1,3 +1,3 @@
 # MERN-Zomato-Clone
-## create project
+### create project
 - npm init -y
