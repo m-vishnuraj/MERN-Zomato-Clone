@@ -26,3 +26,4 @@
 - user (user related details, username, email, password)
 ### craete models
 - server => database => allModels
+### create mongodb project
