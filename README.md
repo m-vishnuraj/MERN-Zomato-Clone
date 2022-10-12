@@ -37,9 +37,13 @@
 - setup salting and hasing in user schema
 ### API
 - server => api
-### Auth API
+### auth api
 - user singn-up and sign-in
-### Food API
+### food api
 - get food details on id
 - get all food based on particular restaurant
 - get all food based on particular category
+# restaurant api
+- get all restaurant details based on city
+- get individual restaurant details based on id
+- get restaurant details based on search string
