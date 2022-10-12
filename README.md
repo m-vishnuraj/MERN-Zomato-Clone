@@ -35,4 +35,7 @@
 ### install bcryptjs jsonwebtoken
 - npm install bcryptjs jsonwebtoken
 - setup salting and hasing in user schema
-### user API
+### API
+- server => api
+### Auth API
+- user singn-up and sign-in
