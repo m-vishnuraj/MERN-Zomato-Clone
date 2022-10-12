@@ -39,3 +39,7 @@
 - server => api
 ### Auth API
 - user singn-up and sign-in
+### Food API
+- get food details on id
+- get all food based on particular restaurant
+- get all food based on particular category
