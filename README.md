@@ -27,3 +27,8 @@
 ### craete models
 - server => database => allModels
 ### create mongodb project
+- setup newtwork access
+- setup database access
+- config env
+### creating schemas
+- food, image, menu,order, restaurant, review, user
