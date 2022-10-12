@@ -32,6 +32,6 @@
 - config env
 ### creating schemas
 - food, image, menu,order, restaurant, review, user
-### install bcrypt jsonwebtoken
-- npm install bcrypt jsonwebtoken
+### install bcryptjs jsonwebtoken
+- npm install bcryptjs jsonwebtoken
 
