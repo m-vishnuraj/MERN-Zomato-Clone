@@ -43,7 +43,13 @@
 - get food details on id
 - get all food based on particular restaurant
 - get all food based on particular category
-# restaurant api
+### restaurant api
 - get all restaurant details based on city
 - get individual restaurant details based on id
 - get restaurant details based on search string
+### user api
+- npm i passport
+- npm i passport-jwt
+- server => config => route_config.js (create)
+- config => server => index.js
+- npm i express-session
