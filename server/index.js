@@ -13,6 +13,7 @@ import Auth from "./api/auth";
 import Food from "./api/food";
 import Restaurant from "./api/restaurant";
 import User from "./api/user";
+import Menu from "./api/menu";
 
 dotenv.config();
 
@@ -37,6 +38,7 @@ zomato.use("/auth", Auth);
 zomato.use("/food", Food);
 zomato.use("/restaurant", Restaurant);
 zomato.use("/user", User);
+zomato.use("/menu", Menu);
 
 const PORT = 4000;
 
