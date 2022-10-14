@@ -21,4 +21,25 @@ Router.get("/", async (req, res) => {
     return res.status(500).json({ error: error.message });
   }
 });
+
+/**
+ * Route     /:_id
+ * Des       Get user data (for the review system)
+ * Params    _id
+ * Access    Public
+ * Method    GET
+ */
+Router.get("/:_id", async (req, res) => {
+  try {
+    const { _id } = req.params;
+    const getUser = await UserModel.findById(_id);
+    const { fullName } = getUser;
+    if (!getUser) {
+      return res.status(404).json({ error: "User not found" });
+    }
+    return res.json({ user: { fullName, profilePic } });
+  } catch (error) {
+    return res.status(500).json({ error: error.message });
+  }
+});
 export default Router;
