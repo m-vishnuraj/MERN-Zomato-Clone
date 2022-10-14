@@ -53,3 +53,7 @@
 - server => config => route_config.js (create)
 - config => server => index.js
 - npm i express-session
+- api -------------------
+- Get authorized user data (ptivate)
+- Get user data (For the review system) (public)
+- Update user data (Private)
