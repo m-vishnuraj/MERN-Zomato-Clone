@@ -63,3 +63,7 @@
 ### order api
 - Get all orders by user id
 - Add new order
+### review api
+- Get all review for a particular restaurant
+- Add new food/restaurant review and rating
+- Delete a specific review
