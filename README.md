@@ -72,7 +72,7 @@
 - get all restaurant details based on city
 - get individual restaurant details based on id
 - get restaurant details based on search string
-### food api
+### food api revised
 - create new food
 - get food details on id
 - get all food based on particular restaurant
