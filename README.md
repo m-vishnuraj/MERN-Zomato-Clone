@@ -67,3 +67,10 @@
 - Get all review for a particular restaurant
 - Add new food/restaurant review and rating
 - Delete a specific review
+### restaurant api revided
+- Create new restaurant
+- get all restaurant details based on city
+- get individual restaurant details based on id
+- get restaurant details based on search string
+### image api
+- npm i multer (uploading heavy data like image)
