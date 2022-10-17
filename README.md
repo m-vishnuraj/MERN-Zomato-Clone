@@ -77,5 +77,10 @@
 - get food details on id
 - get all food based on particular restaurant
 - get all food based on particular category
+### setup validation
+- npm i joi
+- server => validation =>
+- auth_validation.js(sing up and sign in)
+- comman_validation.js
 ### image api
 - npm i multer (uploading heavy data like image)
