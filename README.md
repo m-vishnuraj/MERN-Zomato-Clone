@@ -67,7 +67,7 @@
 - Get all review for a particular restaurant
 - Add new food/restaurant review and rating
 - Delete a specific review
-### restaurant api revided
+### restaurant api revised
 - Create new restaurant
 - get all restaurant details based on city
 - get individual restaurant details based on id
