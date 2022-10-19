@@ -1,7 +1,5 @@
 import express from "express";
-
 import { UserModel } from "../../database/allModels";
-
 import passport from "passport";
 
 const Router = express.Router();
@@ -13,7 +11,7 @@ const Router = express.Router();
  * Access    Private
  * Method    GET
  */
- Router.get(
+Router.get(
   "/",
   passport.authenticate("jwt", { session: false }),
   async (req, res) => {
@@ -59,13 +57,15 @@ Router.get("/:_id", async (req, res) => {
  * Access    Private
  * Method    PUT
  */
- Router.put(
+Router.put(
   "/update/:_id",
   passport.authenticate("jwt", { session: false }),
   async (req, res) => {
     try {
       const { _id } = req.params;
       const { userData } = req.body;
+
+      // Task: Validate User Data
 
       userData.password = undefined;
 

@@ -1,6 +1,11 @@
 import express from "express";
 
 import { RestaurantModel } from "../../database/allModels";
+import {
+  validateRestaurant,
+  validateRestaurantCity,
+  validateSearchString,
+} from "../../validation/retaurant_validation";
 
 const Router = express.Router();
 
@@ -12,23 +17,21 @@ const Router = express.Router();
  * Method    POST
  */
 // Homework
-Router.post(
-  "/new",async (req, res) => {
-    try {
-      const { restaurantData } = req.body;
+Router.post("/new", async (req, res) => {
+  try {
+    const { restaurantData } = req.body;
 
-      const restaurant = await RestaurantModel.create({ ...restaurantData });
+    const restaurant = await RestaurantModel.create({ ...restaurantData });
 
-      return res.json({ restaurant });
-    } catch (error) {
-      return res.status(500).json({ error: error.message });
-    }
+    return res.json({ restaurant });
+  } catch (error) {
+    return res.status(500).json({ error: error.message });
   }
-);;
+});
 
 /**
  * Route     /
- * Des       Get all the restuarant details based on the city
+ * Des       Get all the restaurant details based on the city
  * Params    none
  * Access    Public
  * Method    GET
@@ -37,6 +40,7 @@ Router.get("/", async (req, res) => {
   try {
     // http://localhost:4000/restaurant/?city=ncr
     const { city } = req.query;
+    await validateRestaurantCity(req.query);
     const restaurants = await RestaurantModel.find({ city });
     if (restaurants.length === 0) {
       return res.json({ error: "No restaurant found in this city." });
@@ -88,6 +92,9 @@ Router.get("/search/:searchString", async (req, res) => {
    */
   try {
     const { searchString } = req.params;
+
+    await validateSearchString(req.params);
+
     const restaurants = await RestaurantModel.find({
       name: { $regex: searchString, $options: "i" },
     });

@@ -1,5 +1,6 @@
 import express from "express";
 import { FoodModel } from "../../database/allModels";
+import { validateId } from "../../validation/common_validation";
 const Router = express.Router();
 
 /**
@@ -34,6 +35,7 @@ Router.post(
  Router.get("/:_id", async (req, res) => {
   try {
     const { _id } = req.params;
+    await validateId (req.params);
     const foods = FoodModel.findById(_id);
     return res.json({ foods });
   } catch (error) {
@@ -51,6 +53,7 @@ Router.post(
  Router.get("/r/:_id", async (req, res) => {
   try {
     const { _id } = req.params;
+    await validateId (req.params);
     const foods = await FoodModel.find({
       restaurant: _id,
     });
@@ -71,6 +74,7 @@ Router.post(
  Router.get("/c/:category", async (req, res) => {
   try {
     const { category } = req.params;
+    await validateCategory(req.params);
     const foods = await FoodModel.find({
       category: { $regex: category, $options: "i" },
     });
