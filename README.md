@@ -82,5 +82,8 @@
 - server => validation =>
 - auth_validation.js(sing up and sign in)
 - comman_validation.js
+### aws config
+- create s3 bucket for stoaring image
+- create IAM accout sub 
 ### image api
 - npm i multer (uploading heavy data like image)
