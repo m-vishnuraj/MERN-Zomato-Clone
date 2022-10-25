@@ -84,6 +84,9 @@
 - comman_validation.js
 ### aws config
 - create s3 bucket for stoaring image
-- create IAM accout sub 
+- create IAM sub-accout 
+- npm i aws-sdk
 ### image api
 - npm i multer (uploading heavy data like image)
+- api -> image
+- server -> utils -> s3.js
