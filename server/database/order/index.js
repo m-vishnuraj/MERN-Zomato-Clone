@@ -11,8 +11,8 @@ const OrderSchema = new mongoose.Schema(
         food: [
           {
             details: { type: mongoose.Types.ObjectId, ref: "foods" },
-            quantity: { type: Number, required: true },
-          },
+            quantity: { type: Number, required: true }
+          }
         ],
         payMode: { type: String, required: true },
         status: { type: String, default: "Placed" },
@@ -20,9 +20,9 @@ const OrderSchema = new mongoose.Schema(
           itemTotal: { type: Number, required: true },
           promo: { type: String, required: true },
           tax: { type: String, require: true },
-          razorpay_payment_id: { type: String, required: true },
-        },
-      },
+          razorpay_payment_id: { type: String, required: true }
+        }
+      }
     ],
   },
   {
