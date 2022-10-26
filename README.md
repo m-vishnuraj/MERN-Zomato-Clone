@@ -90,3 +90,7 @@
 - npm i multer (uploading heavy data like image)
 - api -> image
 - server -> utils -> s3.js
+### google auth api
+- https://console.cloud.google.com (config)
+- npm install passport-google-oauth2
+- config => googe_config.js
