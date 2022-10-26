@@ -94,3 +94,6 @@
 - https://console.cloud.google.com (config)
 - npm install passport-google-oauth2
 - config => googe_config.js
+### build project (node js)
+- npm run build
+- setup everything
