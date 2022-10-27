@@ -100,3 +100,8 @@
 ### create react app
 - npx create-react-app client
 - config tailwind css
+- config headless ui  https://headlessui.com/react/menu#installation
+- npm i axios swiper react-router-dom react-rating-stars-component
+- npm install leaflet (config in index.html https://react-leaflet.js.org/docs/start-installation/)
+- npm install react-leaflet
+- npm install react-icons
