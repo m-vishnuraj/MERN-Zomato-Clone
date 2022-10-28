@@ -17,8 +17,7 @@ const MobileNav = ({ user, isDropdownOpen, setIsDropdownOpen }) => {
         />
       </div>
       <div className="flex items-center gap-3 relative">
-        {/* bg-zomato-400 */}
-        <button className="bg-black text-white py-2 px-3 rounded-full">
+        <button className="bg-zomato-400 text-white py-2 px-3 rounded-full">
           Use App
         </button>
         {user?.fullName ? (
