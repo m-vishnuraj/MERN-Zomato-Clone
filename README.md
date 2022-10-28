@@ -113,4 +113,6 @@
 - components => Navbar, FoodTab
 ### ui design
 - Navbar ✔
+- npm i classnames (for easy conditional statement)
+- taliwind.config.js added custom colors
 - FoodTab ✔
