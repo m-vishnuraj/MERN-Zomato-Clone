@@ -1,4 +1,5 @@
 import React from 'react'
+import FoodTab from '../components/FoodTab/FoodTab'
 import Navbar from '../components/Navbar/Navbar'
 
 const HomePageLayout =
@@ -7,6 +8,7 @@ const HomePageLayout =
             return (
                 <>
                     <Navbar />
+                    <FoodTab />
                     <Component {...props} />
                 </>
             )
