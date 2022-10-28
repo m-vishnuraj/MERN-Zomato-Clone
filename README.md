@@ -110,6 +110,7 @@
 - pages => HomePage.jsx, GoogleAuthPage.jsx, RestaurantPage.jsx, CheckoutPage.jsx
 - components => Restaurant => Overview.jsx, OrderOnline.jsx, Reviews.jsx, Menu.jsx, Photos.jsx
 - layouts => CheckoutLayout.jsx, HomePageLayout.jsx, RestaurantLayout.jsx  (HOC)
-- components => Navbar
+- components => Navbar, FoodTab
 ### ui design
-- navbar ✔
+- Navbar ✔
+- FoodTab ✔
