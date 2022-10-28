@@ -110,9 +110,12 @@
 - pages => HomePage.jsx, GoogleAuthPage.jsx, RestaurantPage.jsx, CheckoutPage.jsx
 - components => Restaurant => Overview.jsx, OrderOnline.jsx, Reviews.jsx, Menu.jsx, Photos.jsx
 - layouts => CheckoutLayout.jsx, HomePageLayout.jsx, RestaurantLayout.jsx  (HOC)
-- components => Navbar, FoodTab
+- components => Navbar, FoodTab, Delivery, Dining, NightLife, Nutrition
 ### ui design
 - Navbar ✔
 - npm i classnames (for easy conditional statement)
 - taliwind.config.js added custom colors
 - FoodTab ✔
+- home page => nested rotes (Delivery, Dining, NightLife, Nutrition)
+- Delivery ✔
+
