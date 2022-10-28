@@ -111,3 +111,5 @@
 - components => Restaurant => Overview.jsx, OrderOnline.jsx, Reviews.jsx, Menu.jsx, Photos.jsx
 - layouts => CheckoutLayout.jsx, HomePageLayout.jsx, RestaurantLayout.jsx  (HOC)
 - components => Navbar
+### ui design
+- navbar ✔
