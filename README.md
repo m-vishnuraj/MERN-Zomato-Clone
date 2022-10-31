@@ -118,4 +118,6 @@
 - FoodTab ✔
 - home page => nested rotes (Delivery, Dining, NightLife, Nutrition)
 - Delivery ✔
+- Delivery Carousel ✔
+- Restaurant Card ✔
 
