@@ -120,4 +120,4 @@
 - Delivery ✔
 - Delivery Carousel ✔
 - Restaurant Card ✔
-
+- Dining ✔
