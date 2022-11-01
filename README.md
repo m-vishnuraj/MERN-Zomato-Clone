@@ -117,7 +117,7 @@
 - taliwind.config.js added custom colors
 - FoodTab ✔
 - home page => nested rotes (Delivery, Dining, NightLife, Nutrition)
-- Delivery ✔
+- ### Delivery ✔
 - Delivery Carousel ✔
 - Restaurant Card ✔
-- Dining ✔
+- ### Dining ✔
