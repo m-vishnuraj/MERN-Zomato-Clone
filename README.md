@@ -121,3 +121,4 @@
 - Delivery Carousel ✔
 - Restaurant Card ✔
 - ### Dining ✔
+- Pictur eCarousel Card ✔
