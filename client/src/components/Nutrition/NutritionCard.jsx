@@ -1,7 +1,6 @@
 import React from "react";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import ReactStars from "react-rating-stars-component";
-import ReactStart from "react-rating-stars-component";
 
 const NutritionCard = (props) => {
     return (
