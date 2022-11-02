@@ -121,4 +121,10 @@
 - Delivery Carousel ✔
 - Restaurant Card ✔
 - ### Dining ✔
-- Pictur eCarousel Card ✔
+- Picture Carousel ✔
+- ### Night life ✔
+- Night life Carousel ✔
+- ### Nutrition ✔
+- Nutrition Hero Carousel ✔
+- Nutrition Carousel ✔
+- NutritionCard ✔
