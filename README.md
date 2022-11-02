@@ -128,3 +128,8 @@
 - Nutrition Hero Carousel ✔
 - Nutrition Carousel ✔
 - NutritionCard ✔
+- ### Restaurant Details ✔
+- image grid ✔
+- info button ✔
+- restaurant info ✔
+- tabs ✔
