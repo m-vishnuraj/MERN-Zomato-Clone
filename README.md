@@ -133,3 +133,9 @@
 - info button ✔
 - restaurant info ✔
 - tabs ✔
+- ### Restaurant Overview ✔
+- npm i react-simple-image-viewer
+- Menu Collection ✔
+- Menu Similar Restaurant Card ✔
+- Review Card ✔
+- MapView ✔
