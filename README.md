@@ -135,6 +135,7 @@
 - tabs ✔
 - ### Restaurant Overview ✔
 - npm i react-simple-image-viewer
+- npm i dayjs
 - Menu Collection ✔
 - Menu Similar Restaurant Card ✔
 - Review Card ✔
