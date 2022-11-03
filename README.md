@@ -141,6 +141,6 @@
 - Review Card ✔
 - MapView ✔
 - Menu ✔
-- Order Online ✔
 - Add Review ✔
 - Photo Collection
+- Order Online ✔
