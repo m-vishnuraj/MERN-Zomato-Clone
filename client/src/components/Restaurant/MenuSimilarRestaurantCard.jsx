@@ -35,4 +35,4 @@ const MenuSimilarRestaurantCard = (props) => {
     );
 };
 
-export default MenuSimilarRestaurantCard
+export default MenuSimilarRestaurantCard;
