@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 
 //components
@@ -23,7 +24,7 @@ const Reviews = () => {
   return (
     <div className="w-full h-full flex-col md:flex md:flex-row relative gap-5">
       <div className="w-full md:w-8/12 flex flex-col gap-3">
-        <div className="md:hidden mb-4">
+        <div className="md:hidden mb-4 flex flex-col gap-2">
           <AddReviewCard />
         </div>
         {reviews.map((review, index) => (
