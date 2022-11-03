@@ -140,3 +140,7 @@
 - Menu Similar Restaurant Card ✔
 - Review Card ✔
 - MapView ✔
+- Menu ✔
+- Order Online ✔
+- Add Review ✔
+- Photo Collection
