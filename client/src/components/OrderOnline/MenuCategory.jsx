@@ -16,9 +16,7 @@ const MenuCategory = (props) => {
                 href={`/restaurant/${id}/order-online/#${props.target}`}
                 id={props.name}
             >
-                <button>
-                    {props.name} ({props.items.length})
-                </button>
+                {props.name} ({props.items.length})
             </a>
         </>
     );
