@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { IoMdArrowFropdown, IoCloseSharp } from "react-icons/io5";
 import { IoMdArrowDropup, IoMdArrowDropright } from "react-icons/io";
@@ -41,7 +42,7 @@ const CartData = ({ toggle }) => {
                         {cart.length} Item <IoMdArrowDropup />
                     </small>
                     <h4>
-                        ${cart.reduce((acc, curVal) => acc + curVal.totalPrice, 0)}{" "}
+                        ₹ {cart.reduce((acc, curVal) => acc + curVal.totalPrice, 0)}{" "}
                         <sub>(plus tax)</sub>
                     </h4>
                 </div>

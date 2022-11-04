@@ -20,6 +20,7 @@
     "react-scripts": "5.0.1",
     "react-simple-image-viewer": "^1.2.2",
     "swiper": "^8.4.4",
+    "util": "^0.12.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,5 +1,5 @@
-import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
+import React from "react";
+import Navbar from "../components/Navbar/CheckoutNavbar";
 
 const CheckoutLayout =
     (Component) =>
@@ -7,11 +7,11 @@ const CheckoutLayout =
             return (
                 <>
                     <Navbar />
-                    <div className='container mx-auto px-4 lg:px-20'>
+                    <div className="container mx-auto px-4 lg:px-20">
                         <Component {...props} />
                     </div>
                 </>
-            )
-        }
+            );
+        };
 
-export default CheckoutLayout
+export default CheckoutLayout;
