@@ -144,3 +144,6 @@
 - Add Review ✔
 - Photo Collection
 - Order Online ✔
+- Cart Container ✔
+- Auth ✔
+
