@@ -17,7 +17,7 @@ const MapView = (props) => {
                         center={props.mapLocation}
                         zoom={13}
                         scrollWheelZoom={false}
-                        className="h-full"
+                        className="h-full z-10"
                     >
                         <TileLayer
                             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
