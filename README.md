@@ -146,4 +146,6 @@
 - Order Online ✔
 - Cart Container ✔
 - Auth ✔
+- Checkout ✔
+- razorpay added ✔
 
