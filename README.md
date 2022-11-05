@@ -148,4 +148,5 @@
 - Auth ✔
 - Checkout ✔
 - razorpay added ✔
-
+### config redux
+- npm i redux redux-thunk redux-logger
